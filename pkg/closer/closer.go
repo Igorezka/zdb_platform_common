@@ -13,6 +13,7 @@ var globalCloser = New(
 	syscall.SIGHUP,
 	syscall.SIGTERM,
 	syscall.SIGABRT,
+	syscall.SIGQUIT,
 )
 
 // Add adds `func() error` callback to the globalCloser
