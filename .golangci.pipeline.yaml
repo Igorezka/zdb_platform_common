@@ -10,7 +10,7 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/igorezka/auth
+        - github.com/igorezka/zdb_platform_common
 
     golines:
       max-len: 120

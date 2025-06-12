@@ -11,11 +11,11 @@ lint:
 
 test:
 	go clean -testcache
-	go test ./... -covermode count -coverpkg=github.com/igorezka/auth/internal/service/...,github.comgithub.com/igorezka/auth/internal/api/... -count 5
+	go test ./... -covermode count -coverpkg=github.com/igorezka/zdb_platform_common/pkg/... -count 5
 
 test-coverage:
 	go clean -testcache
-	go test ./... -coverprofile=coverage.tmp.out -covermode count -coverpkg=github.com/igorezka/auth/internal/service/...,github.com/igorezka/auth/internal/api/... -count 5
+	go test ./... -coverprofile=coverage.tmp.out -covermode count -coverpkg=github.com/igorezka/zdb_platform_common/pkg/... -count 5
 	grep -v 'mocks\|config' coverage.tmp.out  > coverage.out
 	rm coverage.tmp.out
 	go tool cover -html=coverage.out -o=coverage.html;

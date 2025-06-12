@@ -5,7 +5,6 @@ go 1.24.3
 require (
 	github.com/georgysavva/scany/v2 v2.1.4
 	github.com/gojuno/minimock/v3 v3.4.5
-	github.com/igorezka/auth v0.0.0-20250611074609-46985f387055
 	github.com/jackc/pgx/v5 v5.7.5
 	github.com/pkg/errors v0.9.1
 )
