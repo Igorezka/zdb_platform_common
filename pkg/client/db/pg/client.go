@@ -6,7 +6,7 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/pkg/errors"
 
-	def "github.com/igorezka/auth/internal/client/db"
+	def "github.com/igorezka/zdb_platform_common/pkg/client/db"
 )
 
 type pgClient struct {

@@ -8,7 +8,7 @@ import (
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	def "github.com/igorezka/auth/internal/client/db"
+	def "github.com/igorezka/zdb_platform_common/pkg/client/db"
 )
 
 type key string

@@ -6,8 +6,8 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/pkg/errors"
 
-	def "github.com/igorezka/auth/internal/client/db"
-	"github.com/igorezka/auth/internal/client/db/pg"
+	def "github.com/igorezka/zdb_platform_common/pkg/client/db"
+	"github.com/igorezka/zdb_platform_common/pkg/client/db/pg"
 )
 
 type manager struct {
